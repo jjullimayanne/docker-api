@@ -17,3 +17,5 @@ CMD ["npm", "start"]
 #docker build -t name/name .
 #docker run -p 3000:3000 -d namedocker
 #docker ps
+
+#docker compose: orquestrador: define como cada container deve se comportar 
