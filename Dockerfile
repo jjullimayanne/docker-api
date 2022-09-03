@@ -10,12 +10,8 @@ RUN npm install
 #copiar todos os arquivos menos node modules que na ignore
 COPY . .
 
-EXPOSE 3000
+EXPOSE ${PORT}
 
 #unica por dockerfile 
 CMD ["npm", "start"]
-#docker build -t name/name .
-#docker run -p 3000:3000 -d namedocker
-#docker ps
-
-#docker compose: orquestrador: define como cada container deve se comportar 
+#docker 
